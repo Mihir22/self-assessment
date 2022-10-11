@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Self Assessment</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="navbar">
+          <li class="option">Lottery</li>
+          <li class="option">Contact US</li>
+          <li class="option">Web Development</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <br>
+        <br>
+      <h1>Web Development Course CS5610</h1>
+      <section>
+        <h2>1. Grid Layout with div and Span</h2>
+        <div>
+          <span>GRID 11</span>
+          <span>GRID 12</span>
+          <span>GRID 13</span>
+        </div>
+
+        <div>
+          <span>GRID 21</span>
+          <span>GRID 22</span>
+          <span>GRID 23</span>
+        </div>
+
+        <div>
+          <span>GRID 31</span>
+          <span>GRID 32</span>
+          <span>GRID 33</span>
+        </div>
+      </section>
+
+      <br />
+      <br />
+      <br />
+
+      <section>
+        <h2>2. Box model demostration</h2>
+        <div class="margin">
+            <div class="box1">
+                <p class="box2">There's space around this text due to padding but no margin</p>
+                <p class="box3">This is an example of no padding + no margin</p>
+                <p class="box4">This is an example of text with only margin</p>
+                <p class="box5"> This is an example of padding and margin</p>
+            </div>
+        </div>
+      </section>
+
+      <br>
+      <br>
+      <br>
+
+      <section>
+        <h2>List of Most useful tags</h2>
+        <div>
+          <ul class="section2">
+            <li>div</li>
+            <li>ul</li>
+            <li>li</li>
+            <li>p</li>
+            <li>span</li>
+            <li>heading tags - h1/h2/h3/h4/h5/h6</li>
+            <li>img</li>
+            <li>button</li>
+            <li>section</li>
+            <li>nav</li>
+          </ul>
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <div class="section2">
+          <h3>Most useful SEO tags</h3>
+          <ul>
+            <li>
+              title tag - This is the title of page, which is shown in search
+              results
+            </li>
+            <li>
+              meta tag - This tag is used as short description by search engines
+            </li>
+            <li>
+              img tag - We need to provide images with alt text for SEO and
+              screen readers
+            </li>
+            <li>
+              semantic tags - We should split our code using semantic tags such
+              as article, nav, footer, section
+            </li>
+            <li>
+              link tag with rel=canonical - This is to avoid duplicate content
+              and tell search engines which is the main website
+            </li>
+            <li>
+              header tags - using h1,h2.. and so on to label for search engines
+              to structure pages correctly and use only one H1 tag
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <br />
+      <br />
+      <br />
+
+      <section>
+        <h2>3. Different font sizes</h2>
+
+        <div>
+          <h3>Absolute font sizes</h3>
+          <p>
+            These font sizes never change once assigned and they are independent
+            of size of parental element. However, they can be used to aid for
+            using relative font sizes. Some of the most commonly used absolute
+            sizing are:
+
+            <div class="section2">
+                <ul>
+                    <li style="font-size: 16px;">{16px} I love Web Development</li>
+                    <li style="font-size: 16pt;">{16pt} I love Web Development</li>
+                </ul>
+
+                <br>
+                <br>
+                <p>px -> 1/96 inch</p>
+                <p>pt -> 1/72 inch</p>
+            </div>
+          </p>
+        </div>
+
+        <br>
+        <div>
+            <h3>Relative font sizes</h3>
+            <p>These font sizes are used to have relative font sizes. The size depends on the parental element. Most common of them are</p>
+
+            <div class="section2">
+                <ul>
+                    <li style="font-size: 1rem;"> {1rem} I love Web Development</li>
+                    <li style="font-size: 1vh;"> {1vh} I love Web Development</li>
+                    <li style="font-size: 1vw;"> {1vw} I love Web Development</li>
+                    <li style="font-size: 1em;"> {1em} I love Web Development</li>
+                </ul>
+
+                <br>
+                <br>
+                <ul>
+                    <li>rem => This sets the font size relative to the document root. e.g we set the font size at root level to 10px (absolute), and in child elements we give 0.5rem, that will be equivalent to 5px</li>
+                    <li>vw => It says the font should take 1% of the available width. It can be used with images whose sizes changes depending upon available width and height, so that it doesn't exceed the viewport</li>
+                    <li>vh => It says the font should take 1% of the available height. It can be used with images whose sizes changes depending upon available width and height, so that it doesn't exceed the viewport</li>
+                    <li>em => It allows setting the font size relative to it's parent. The parent can have absolute sizing and child can have relative sizing</li>
+                </ul>
+            </div>
+        </div>
+      </section>
+
+      <br>
+      <br>
+      <br>
+
+      <section>
+        <h2>4. Different types of positioning</h2>
+
+        <!-- Static Positioning -->
+        <div>
+            <br>
+            <h3>1. Static Positioning</h3>
+            <p>This is the default behaviour and the elements are put in normal flow of document</p>
+
+            <br>
+            <div class="static_body">
+                <p>Added a text</p>
+                <p>Due to static position, this will be added below the text 1</p>
+            </div>
+        </div>
+
+        <!-- Relative/ASbsolute -->
+
+        <div>
+            <br>
+            <h3>2. Relative and Absolute Positioning</h3>
+            <p>We use this, if we want to stack elements on top of each other
+
+                Parent is given the <strong>position: relative.</strong>
+                Child is given the <strong>position: absolute</strong>
+            </p>
+
+            <br>
+            <div class="relative_parent">
+                <div class="absolute_child"></div>
+            </div>
+        </div>
+
+        <!-- Fixed -->
+        <div class="fixed">
+            <h3>3. Fixed Positioning</h3>
+            <p>I am an example of fixed Positioning</p>
+            <p style="font-weight: bold;">Do you agree lottery is the best?</p>
+        </div>
+
+        <!-- Sticky -->
+        <div>
+            <br>
+            <h3>4. Sticky Positioning</h3>
+            <p>Navigation bar is a demonstration of position: sticky</p>
+        </div>
+
+      </section>
+
+      <br>
+      <!-- <section>
+        <h2>Week2</h2>
+      </section>
+
+      <section>
+        <h2>Week3</h2>
+      </section>
+
+      <section>
+        <h2>Week4</h2>
+      </section> -->
+    </main>
+
+    <footer>
+      <div class="foot">
+       <p>Demonstrated with ❤️ by Harshit Gajjar</p>
+      </div>
+    </footer>
+  </body>
+</html>
