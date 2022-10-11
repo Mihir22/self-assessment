@@ -136,3 +136,9 @@ option:hover {
   margin: 4rem;
   padding: 2rem;
 }
+
+footer {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+}
