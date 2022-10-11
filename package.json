@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "echo \"Error: no test specified\" && exit 1"
+   "start": "http-server"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/HarshitG24/self-assessment/issues"
   },
-  "homepage": "https://github.com/HarshitG24/self-assessment#readme"
+  "homepage": "https://github.com/HarshitG24/self-assessment#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
 }
